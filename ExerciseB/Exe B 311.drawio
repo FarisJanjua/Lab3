@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-07-16T21:44:36.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9VUde9ttG9WOnyL7-Fdr" version="24.6.5" type="device">
+  <diagram name="Page-1" id="u2XHvNNGt-ZBO1JLLqYt">
+    <mxGraphModel dx="510" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-4" value="Plant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="408" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-5" value="NutrientCycle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="488" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-6" value="ReproductionCycle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="488" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-7" value="GrowthRate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="488" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="sCs4c7iZyyDHLPAbtbKk-5" target="sCs4c7iZyyDHLPAbtbKk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="490" as="sourcePoint" />
+            <mxPoint x="1440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="sCs4c7iZyyDHLPAbtbKk-6" target="sCs4c7iZyyDHLPAbtbKk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="490" as="sourcePoint" />
+            <mxPoint x="1670" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-10" value="" style="endArrow=none;html=1;rounded=0;entryX=1.056;entryY=0.814;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.589;exitY=0.052;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sCs4c7iZyyDHLPAbtbKk-7" target="sCs4c7iZyyDHLPAbtbKk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1710" y="491" as="sourcePoint" />
+            <mxPoint x="1823" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sCs4c7iZyyDHLPAbtbKk-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="560" as="sourcePoint" />
+            <mxPoint x="1550" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="sCs4c7iZyyDHLPAbtbKk-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1559.52" y="568" as="sourcePoint" />
+            <mxPoint x="1559.52" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sCs4c7iZyyDHLPAbtbKk-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="560" as="sourcePoint" />
+            <mxPoint x="1570" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;SeedFormationPeriod&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-17" value="FertilizationPeriod&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="570" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCs4c7iZyyDHLPAbtbKk-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;PollinationPeriod&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="565" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -19,7 +19,7 @@ public class Student extends Person {
         this(name, phoneNumber, emailAddress, address, lastPersonalNumber, studentNumber, supervisor, 0.0);
     }
 
-    // Getter and setter for studentNumber
+  
     public String getStudentNumber() {
         return studentNumber;
     }

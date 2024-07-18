@@ -6,21 +6,20 @@ public class University {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Create Address instances
+      
         Address professor1Address = new Address("123 University St", "T2N 1N4", "Alberta", "Canada");
         Address professor2Address = new Address("456 University St", "T2N 1N8", "Alberta", "Canada");
         Address student1Address = new Address("789 College Ave", "T2N 2N4", "Alberta", "Canada");
         Address student2Address = new Address("810 Campus Dr", "T2N 2N8", "Alberta", "Canada");
 
-        // Create Professor instances
+      
         Professor professor1 = new Professor("Travis", "555-5555", "travis@university.ca", professor1Address, 1, "P001", 200000.0);
         Professor professor2 = new Professor("Drake", "555-1234", "drake@university.ca", professor2Address, 2, "P002", 176000.0);
 
-        // Create Student instances
+  
         Student student1 = new Student("Kanye", "555-9101", "kanye@university.ca", student1Address, 3, "S001", professor1, 85.0);
         Student student2 = new Student("Kendrick", "555-1122", "kendrick@university.ca", student2Address, 4, "S002", professor2, 90.0);
-
-        // Interactive menu
+        
         while (true) {
             System.out.println("Menu:");
             System.out.println("1. Book meeting with Professor Travis");
@@ -30,8 +29,8 @@ public class University {
             System.out.println("5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
-
+            scanner.nextLine(); 
+            
             switch (choice) {
                 case 1:
                     System.out.println("Meeting booked with Professor Travis.");
@@ -48,11 +47,11 @@ public class University {
                     System.out.println("Professor 2: " + professor2.getName() + ", Address: " + professor2.getAddress().getStreet());
                     break;
                 case 5:
-                    System.out.println("Exiting...");
+                    System.out.println("Exiting..");
                     scanner.close();
                     return;
                 default:
-                    System.out.println("Invalid option. Please try again.");
+                    System.out.println("Invalid option, try again.");
             }
         }
     }

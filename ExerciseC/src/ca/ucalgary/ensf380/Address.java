@@ -6,7 +6,7 @@ class Address {
     private String state;
     private String country;
 
-    // Constructor
+  
     public Address(String street, String postalCode, String state, String country) {
         this.street = street;
         this.postalCode = postalCode;
@@ -14,7 +14,7 @@ class Address {
         this.country = country;
     }
 
-    // Methods
+  
     public String getStreet() {
         return street;
     }
@@ -47,8 +47,7 @@ class Address {
         this.country = country;
     }
 
-    // Validate method
-    public boolean validate() {
+        public boolean validate() {
         return street != null && !street.trim().isEmpty() &&
                postalCode != null && !postalCode.trim().isEmpty() &&
                state != null && !state.trim().isEmpty() &&

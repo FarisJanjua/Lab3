@@ -5,7 +5,7 @@ public class Professor extends Person {
     private String teacherNumber;
     private Double salary;
 
-    // Constructor with all parameters
+    
     public Professor(String name, String phoneNumber, String emailAddress, Address address, int lastPersonalNumber,
                      String teacherNumber, Double salary) {
         super(name, phoneNumber, emailAddress, address, lastPersonalNumber);
@@ -20,7 +20,7 @@ public class Professor extends Person {
         this.salary = salary;
     }
 
-    // Getter and setter methods
+   
     public String getTeacherNumber() {
         return teacherNumber;
     }

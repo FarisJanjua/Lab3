@@ -20,7 +20,7 @@ abstract class Person {
         return "Number is Updated!";
     }
 
-    // Method to check if the address is valid
+   
     public boolean hasValidAddress() {
         return this.address != null && this.address.validate();
     }
